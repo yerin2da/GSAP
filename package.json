@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -10,6 +11,7 @@
     "@vis.gl/react-google-maps": "^1.5.2",
     "axios": "^1.8.4",
     "date-fns": "^4.1.0",
+    "gsap": "^3.13.0",
     "he": "^1.2.0",
     "lucide-react": "^0.501.0",
     "md5": "^2.3.0",

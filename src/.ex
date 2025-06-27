@@ -55,7 +55,7 @@
  │   ├── formatDate.js
  │   └── index.js
  │
-├── App.js         # 메인 App 컴포넌트
+├── App.tsx         # 메인 App 컴포넌트
  ├── index.js       # 진입점
  ├── reportWebVitals.js
  ├── setupTests.js
