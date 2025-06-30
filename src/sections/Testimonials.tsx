@@ -1,7 +1,7 @@
 // src/sections/Testimonials.tsx
 
 import { useEffect, useRef } from "react";
-import { gsap, ScrollTrigger } from "../lib/gsap";
+import { gsap } from "../lib/gsap";
 
 export default function Testimonials() {
     const sectionRef = useRef<HTMLDivElement>(null);

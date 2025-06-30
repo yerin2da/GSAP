@@ -1,14 +1,16 @@
-// src/sections/Hero.tsx
+// src/sections/MainVisual.tsx
 
 import { useRef, useEffect } from "react";
-import { gsap, ScrollTrigger } from "../lib/gsap";
+import { gsap } from "../lib/gsap";
+import TailButton from "../UI/TailButton";
+import BackImaqe from "../components/BackImage";
 
-export default function Hero() {
+export default function MainVisual() {
     const sectionRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         const ctx = gsap.context(() => {
-            // Hero 타이틀 애니메이션
+            // MainVisual 타이틀 애니메이션
             gsap.from(".hero-title", {
                 y: 80,
                 opacity: 0,
@@ -52,24 +54,35 @@ export default function Hero() {
         <section
             id="hero"
             ref={sectionRef}
-            className="section min-h-screen flex items-center justify-center text-center px-4"
+            className="section min-h-screen relative flex items-center justify-center text-center px-4"
         >
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl mx-auto border">
                 <p className="uppercase tracking-wide text-sm text-gray-400 mb-4">
                     super lorem abstract brand — powered by direction
                 </p>
-                <h1 className="hero-title text-5xl md:text-7xl font-extrabold leading-tight mb-8">
-                    Creative <br className="hidden md:block" /> Design
+                <h1 className="text-center leading-[0.8] text-7xl md:text-8xl lg:text-9xl mb-8 flex flex-col items-center justify-center">
+                    <span className="">Creative</span>
+                    <span className="">Design</span>
                 </h1>
-                <button className="hero-button px-6 py-3 bg-white text-black font-semibold text-sm rounded hover:bg-gray-200 transition">
-                    Get a Quote
-                </button>
 
-                {/* 이미지 공간 */}
-                <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div className="bg-gray-800 h-60 w-full rounded-md" />
-                    <div className="bg-gray-800 h-60 w-full rounded-md" />
-                </div>
+                <TailButton
+                    bcolor={`text-black bg-white`}
+                    caption={`Get a Quote`}
+                />
+
+            </div>
+            {/* 이미지 */}
+            <div className="absolute top-0 right-0 aspect-square h-1/2 z-0 border">
+                <BackImaqe
+                    imageSrc={`main/pf_img1.png`}
+                    title="메인비주얼 작품1"
+                />
+            </div>
+            <div className="absolute bottom-0 left-0 aspect-square h-1/2 z-0 border">
+                <BackImaqe
+                    imageSrc={`main/pf_img6.png`}
+                    title="메인비주얼 작품2"
+                />
             </div>
         </section>
     );

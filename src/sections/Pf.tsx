@@ -2,7 +2,6 @@
 
 import { useEffect, useRef } from "react";
 import { gsap } from "../lib/gsap";
-import IconImaqe from "../components/IconImaqe";
 import BackImaqe from "../components/BackImage";
 
 export default function Pf() {

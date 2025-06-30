@@ -1,6 +1,6 @@
 // src/pages/Home.tsx
 import Header from "../components/Header";
-import Hero from "../sections/Hero";
+import MainVisual from "../sections/MainVisual";
 import Pf from "../sections/Pf";
 import About from "../sections/About";
 import Testimonials from "../sections/Testimonials";
@@ -11,10 +11,10 @@ import Pf2 from "../sections/Pf2";
 export default function Main() {
 
     return (
-        <div className="bg-black text-white font-sans ">
+        <div className="bg-black text-white">
             <Header />
-            <Hero />
-            {/*<Pf />*/}
+            <MainVisual />
+            <Pf />
             <Pf2 />
             <About />
             <Testimonials />
