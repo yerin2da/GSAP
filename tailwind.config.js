@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        playfair: ['"Playfair Display"', 'serif'],
         noto: ["Noto Sans KR", "sans-serif"],
         pretendard: ["Pretendard", "sans-serif"],
       },
@@ -53,6 +54,11 @@ module.exports = {
         '2xl': 'clamp(22px, 1.25rem + 0.75vw, 30px)',
         '3xl': 'clamp(24px, 1.5rem + 1vw, 36px)',
         '4xl': 'clamp(30px, 1.75rem + 1.25vw, 48px)',
+        '5xl': 'clamp(36px, 2rem + 1.5vw, 60px)',
+        '6xl': 'clamp(42px, 2.5rem + 2vw, 72px)',
+        '7xl': 'clamp(54px, 3rem + 2.5vw, 84px)',
+        '8xl': 'clamp(66px, 3.5rem + 3vw, 96px)',
+        '9xl': 'clamp(78px, 4rem + 3.5vw, 108px)',
       },
     },
   },
