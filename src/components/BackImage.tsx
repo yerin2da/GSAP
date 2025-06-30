@@ -3,7 +3,6 @@ import {JSX} from "react";
 type Props = {
     imageSrc: string;
     wrapClassName?: string;
-    imgClassName?: string; // 이건 배경 방식에선 거의 안 씀
     title?: string;
     onClick?: () => void;
 };
