@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="불필요한 파일 삭제">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="파일 업데이트">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/TailButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/TailButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BackImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainVisual.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Pf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Pf.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Testimonials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Testimonials.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/MainVisual.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainVisual.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +100,8 @@
       <workItem from="1750982563090" duration="20265000" />
       <workItem from="1751242032428" duration="1166000" />
       <workItem from="1751243232564" duration="5274000" />
-      <workItem from="1751249716789" duration="845000" />
+      <workItem from="1751249716789" duration="3567000" />
+      <workItem from="1751269575075" duration="3275000" />
     </task>
     <task id="LOCAL-00001" summary="관련없는 파일 삭제">
       <option name="closed" value="true" />
@@ -157,7 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751249762273</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="파일 업데이트">
+      <option name="closed" value="true" />
+      <created>1751250905952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751250905952</updated>
+    </task>
+    <task id="LOCAL-00008" summary="파일 업데이트">
+      <option name="closed" value="true" />
+      <created>1751251009426</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751251009426</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +190,7 @@
     <MESSAGE value="[메인페이지] pf, pf2 섹션 스크롤 트리거 적용 + 이미지 추가" />
     <MESSAGE value="폰트크기 5xl~9xl 추가" />
     <MESSAGE value="불필요한 파일 삭제" />
-    <option name="LAST_COMMIT_MESSAGE" value="불필요한 파일 삭제" />
+    <MESSAGE value="파일 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="파일 업데이트" />
   </component>
 </project>
