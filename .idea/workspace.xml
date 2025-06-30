@@ -4,183 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="[메인페이지] 퍼블리싱 + 레니스, gsap 적용">
-      <change afterPath="$PROJECT_DIR$/src/components/BackImage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IconImaqe.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sections/Pf2.tsx" afterDir="false" />
+    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="불필요한 파일 삭제">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/couple.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/culture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/days2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/default.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/default2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/default3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/family.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/food.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/guide_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/hanra.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/hotel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/hotel2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/js.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/korMusic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/login_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/mainBanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/map3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/music.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/musical.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/notice_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/person.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/play.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/shop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/camellia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/camellia_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/camellia_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/cheonji.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/cheonji_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/cheonji_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/dongbaek.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/dongbaek_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/dongbaek_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/hanhyang.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/hanhyang_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/hanhyang_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/iho.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/iho_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/iho_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/osulloc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/osulloc_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/osulloc_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/sidol.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/sidol_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/sidol_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/ttorabi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/ttorabi_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/couple/ttorabi_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/bijarim.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/bijarim_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/bijarim_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/conan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/conan_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/conan_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/gotjawal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/gotjawal_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/gotjawal_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/habada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/habada_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/habada_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/hurim.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/hurim_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/hurim_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/namwon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/namwon_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/namwon_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/platinum.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/platinum_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/platinum_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/pyoseon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/pyoseon_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/days2/pyoseon_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/aqua.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/aqua_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/aqua_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/eco.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/eco_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/eco_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/folk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/folk_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/folk_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/herb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/herb_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/herb_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/nexon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/nexon_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/nexon_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/park.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/park_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/park_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/space.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/space_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/space_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/teddy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/teddy_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/family/teddy_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/arboretum.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/arboretum_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/arboretum_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/baekrok.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/baekrok_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/baekrok_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/cheonwang.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/cheonwang_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/cheonwang_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/ecoForest.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/ecoForest_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/ecoForest_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/eoseung.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/eoseung_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/eoseung_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/forest.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/forest_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/forest_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/sara.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/sara_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/sara_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/witse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/witse_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/hanra/witse_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/chusa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/chusa_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/chusa_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/cypress.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/cypress_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/cypress_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/gossi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/gossi_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/gossi_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/leejung.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/leejung_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/leejung_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/modern.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/modern_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/modern_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/samyang.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/samyang_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/samyang_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/think.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/think_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/think_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/wedol.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/wedol_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/person/wedol_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/diver.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/diver_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/diver_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/hallim.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/hallim_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/hallim_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/jejumok.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/jejumok_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/jejumok_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/jungmun.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/jungmun_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/jungmun_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/museum.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/museum_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/museum_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/noru.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/noru_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/noru_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/peace.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/peace_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/peace_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/seopjikoji.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/seopjikoji_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/theme/tour/seopjikoji_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/tour.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/TailButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/TailButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainVisual.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Pf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Pf.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Testimonials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Testimonials.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,20 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/cobra/GSAP/src/sections",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/cobra/GSAP/src/sections&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -266,7 +104,10 @@
       <workItem from="1750813243808" duration="5072000" />
       <workItem from="1750915673656" duration="511000" />
       <workItem from="1750916892134" duration="10175000" />
-      <workItem from="1750982563090" duration="18344000" />
+      <workItem from="1750982563090" duration="20265000" />
+      <workItem from="1751242032428" duration="1166000" />
+      <workItem from="1751243232564" duration="5274000" />
+      <workItem from="1751249716789" duration="845000" />
     </task>
     <task id="LOCAL-00001" summary="관련없는 파일 삭제">
       <option name="closed" value="true" />
@@ -284,7 +125,39 @@
       <option name="project" value="LOCAL" />
       <updated>1750984747086</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[메인페이지] pf, pf2 섹션 스크롤 트리거 적용 + 이미지 추가">
+      <option name="closed" value="true" />
+      <created>1751011998300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751011998300</updated>
+    </task>
+    <task id="LOCAL-00004" summary="폰트크기 5xl~9xl 추가">
+      <option name="closed" value="true" />
+      <created>1751249118462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751249118462</updated>
+    </task>
+    <task id="LOCAL-00005" summary="불필요한 파일 삭제">
+      <option name="closed" value="true" />
+      <created>1751249162973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751249162973</updated>
+    </task>
+    <task id="LOCAL-00006" summary="불필요한 파일 삭제">
+      <option name="closed" value="true" />
+      <created>1751249762273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751249762273</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +177,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="관련없는 파일 삭제" />
     <MESSAGE value="[메인페이지] 퍼블리싱 + 레니스, gsap 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="[메인페이지] 퍼블리싱 + 레니스, gsap 적용" />
+    <MESSAGE value="[메인페이지] pf, pf2 섹션 스크롤 트리거 적용 + 이미지 추가" />
+    <MESSAGE value="폰트크기 5xl~9xl 추가" />
+    <MESSAGE value="불필요한 파일 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="불필요한 파일 삭제" />
   </component>
 </project>
