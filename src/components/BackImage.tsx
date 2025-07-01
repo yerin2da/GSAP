@@ -11,7 +11,7 @@ export default function BackImaqe({ imageSrc = '', wrapClassName = '', title, on
     return (
         <div
             onClick={onClick}
-            className={`w-full h-full bg-center bg-cover rounded-md cursor-pointer ${wrapClassName}`}
+            className={`w-full h-full bg-center bg-cover rounded-sm ${wrapClassName}`}
             style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL}/img/${imageSrc})`,
             }}
