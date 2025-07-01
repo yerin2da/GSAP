@@ -39,35 +39,47 @@ export default function Pf2() {
             gsap.utils.toArray<HTMLElement>(".port_item").forEach((item) => {
                 const heading = item.querySelector("h3");
 
-                const tl = gsap.timeline({
-                    scrollTrigger: {
-                        trigger: item,
-                        start: "top 80%",
-                        end: "top 40%",
-                        toggleActions: "play reverse play reverse",
-                        scrub: true,
-                    },
-                });
-
-                tl.fromTo(
+                // 메인 카드 확대 애니메이션
+                gsap.fromTo(
                     item,
                     { scale: 1, opacity: 0.5 },
-                    { scale: 1.2, opacity: 1, ease: "power2.out" }
+                    {
+                        scale: 1.1,
+                        opacity: 1,
+                        ease: "power2.out",
+                        scrollTrigger: {
+                            trigger: item,
+                            start: "top 60%",
+                            end: "top 20%",
+                            toggleActions: "play reverse play reverse",
+                            once: false,
+                            markers: true,// 디버깅 라인
+                        },
+                    }
                 );
 
                 if (heading) {
-                    tl.fromTo(
+                    gsap.fromTo(
                         heading,
-                        { color: "#fff" },
-                        { color: "red", ease: "none" },
-                        "+=0.1" // 동시에 시작 "<" or 딜레이 "+=0.1"로  줄 수도 있음)
+                        { color: "#ffffff" },
+                        {
+                            color: "red",
+                            scrollTrigger: {
+                                trigger: item,
+                                start: "top 60%",
+                                end: "top 20%",
+                                toggleActions: "play reverse play reverse",
+                            },
+                        }
                     );
                 }
+
             });
         }, sectionRef);
 
         return () => ctx.revert();
     }, []);
+
 
 
     return (
@@ -76,18 +88,23 @@ export default function Pf2() {
             ref={sectionRef}
             className="min-h-[300vh] py-20 px-4 flex flex-col items-center"
         >
-            <h2 className="text-3xl font-bold mb-20">pf2</h2>
+            <h2 className="text-3xl font-bold mb-20">
+                Artwork2
+            </h2>
 
-            <div className="grid grid-cols-1 gap-16 items-center">
+            <div className="
+            {/*grid grid-cols-1 gap-16 */}
+            flex flex-col gap-16
+            items-center">
                 {portfolioData.map((item, i) => (
                     <div
                         key={i}
-                        className="port_item relative transition-transform duration-500 flex items-start "
+                        className="border port_item  scale-100 relative transition-transform duration-500 flex flex-col md:flex-row items-start "
                     >
-                        <div className="img_box overflow-hidden rounded-lg w-80 h-fit">
+                        <div className="img_box w-[50vw] xl:w-[30vw]">
                             <IconImaqe imageSrc={item.img}
                                        title={item.title}
-                                       imgClassName={`w-full h-auto object-contain`}
+                                       imgClassName={``}
                             />
 
                         </div>

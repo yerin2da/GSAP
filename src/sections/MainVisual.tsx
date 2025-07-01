@@ -10,32 +10,7 @@ export default function MainVisual() {
 
     useEffect(() => {
         const ctx = gsap.context(() => {
-            // MainVisual 타이틀 애니메이션
-            gsap.from(".hero-title", {
-                y: 80,//절대 위치 이동 (기준: px)
-                opacity: 0,
-                duration: 1,
-                ease: "power3.out",
-                scrollTrigger: {
-                    trigger: sectionRef.current,
-                    start: "top center",
-                },
-            });
-
-            // 버튼 애니메이션
-            gsap.from(".hero-button", {
-                y: 40,
-                opacity: 0,
-                duration: 0.8,
-                delay: 0.2,
-                ease: "power3.out",
-                scrollTrigger: {
-                    trigger: sectionRef.current,
-                    start: "top center",
-                },
-            });
-
-            // 섹션 자체를 고정 (pin)
+            // 섹션 고정 (pin)
             gsap.to(sectionRef.current, {
                 scrollTrigger: {
                     trigger: sectionRef.current,
@@ -46,38 +21,10 @@ export default function MainVisual() {
                 },
             });
 
-            //이미지 패럴럭스-오른쪽 그림
-            gsap.to(".back-image", {
-               opacity: 1,
-               xPercent:20,//상대 위치 이동 (기준: %)
-               yPercent:-20,
-               ease: "none",//애니메이션 속도가 일정
-               scrollTrigger:{
-                   trigger: sectionRef.current,//스크롤 트리거가 어느 요소에 반응할지
-                   start:"top top",
-                   end:"bottom top",
-                   scrub: true,
-               }
-            });
-
-
-            //이미지 패럴럭스-왼쪽 그림
-            gsap.to(".back-image2", {
-               opacity: 1,
-               xPercent:-30,
-               yPercent:5,
-               ease: "none",
-               scrollTrigger:{
-                   trigger: sectionRef.current,
-                   start:"top top",
-                   end:"bottom top",
-                   scrub: true,
-               }
-            });
-
-            // 이미지 등장 애니메이션 (처음에 나타남)
-            gsap.from(".back-image", {
-                opacity: 0.5,
+            // 타이틀
+            gsap.from(".main-title", {
+                y: 80,//절대 위치 이동 (기준: px)
+                opacity: 0,
                 duration: 1,
                 ease: "power3.out",
                 scrollTrigger: {
@@ -86,16 +33,6 @@ export default function MainVisual() {
                 },
             });
 
-
-            gsap.from(".back-image2", {
-                opacity: 0.5,
-                duration: 1,
-                ease: "power3.out",
-                scrollTrigger: {
-                    trigger: sectionRef.current,
-                    start: "top center",
-                },
-            });
 
             // 설명글
             gsap.from(".intro-text", {
@@ -119,6 +56,54 @@ export default function MainVisual() {
             });
 
 
+            //이미지 패럴럭스-오른쪽 그림
+            gsap.from(".back-image", {
+                opacity: 0.5,
+                duration: 1,
+                ease: "power3.out",
+                scrollTrigger: {
+                    trigger: sectionRef.current,
+                    start: "top center",
+                },
+            });
+            gsap.to(".back-image", {
+               opacity: 1,
+               xPercent:20,//상대 위치 이동 (기준: %)
+               yPercent:-20,
+               ease: "none",//애니메이션 속도가 일정
+               scrollTrigger:{
+                   trigger: sectionRef.current,//스크롤 트리거가 어느 요소에 반응할지
+                   start:"top top",
+                   end:"bottom top",
+                   scrub: true,
+               }
+            });
+
+
+            //이미지 패럴럭스-왼쪽 그림
+            gsap.from(".back-image2", {
+                opacity: 0.5,
+                duration: 1,
+                ease: "power3.out",
+                scrollTrigger: {
+                    trigger: sectionRef.current,
+                    start: "top center",
+                },
+            });
+            gsap.to(".back-image2", {
+               opacity: 1,
+               xPercent:-30,
+               yPercent:5,
+               ease: "none",
+               scrollTrigger:{
+                   trigger: sectionRef.current,
+                   start:"top top",
+                   end:"bottom top",
+                   scrub: true,
+               }
+            });
+
+
         }, sectionRef);
 
         return () => ctx.revert();
@@ -126,7 +111,7 @@ export default function MainVisual() {
 
     return (
         <section
-            id="hero"
+            id="main"
             ref={sectionRef}
             className="section min-h-screen flex items-center justify-center text-center overflow-hidden"
         >

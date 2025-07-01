@@ -52,19 +52,18 @@ export default function Pf() {
         <section
             id="portfolio"
             ref={sectionRef}
-            className="section min-h-screen flex flex-col items-center justify-center py-20 px-4 snap-start"
+            className="section min-h-screen flex flex-col items-center justify-center py-20 snap-start"
         >
-            <h2
-                className="text-3xl font-bold mb-10 bg-black z-50"
-            >
-                Pf
+            <h2 className="text-4xl font-normal mb-14 bg-black z-50">
+                Artwork
+                {/*Portfolio*/}
             </h2>
-            <div className="relative w-72 h-72">
-                {[...Array(6)].map((_, i) => (//해당 배열을 펼쳐서(스프레드) 실제 요소 배열로 변환
-                                            //현재 배열의 요소 값 , 해당 요소의 인덱스 값
+            <div className="relative w-[50vw] xl:w-[30vw] aspect-square rounded-sm">
+                {[...Array(6)].map((_, i) => (// 해당 배열을 펼쳐서(스프레드) 실제 요소 배열로 변환
+                                            // _ : 현재 배열의 요소 값 , i : 해당 요소의 인덱스 값
                     <div
                         key={i}
-                        className="pf-card absolute inset-0 bg-gray-800 aspect-square rounded-md flex items-center justify-center text-white text-4xl font-bold"
+                        className="pf-card absolute inset-0"
                         style={{ zIndex: i + 1 }}//i가 커질수록 z-index도 커져서 나중에 나타나는 카드가 앞쪽
                     >
                         <BackImaqe
