@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="메인비주얼 텍스트 ui변경">
+    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="메인비주얼 아트워크1,2 gsap 적용">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IconImaqe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconImaqe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MainVisual.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainVisual.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Pf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Pf.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Pf2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Pf2.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +97,7 @@
       <workItem from="1751243232564" duration="5274000" />
       <workItem from="1751249716789" duration="3567000" />
       <workItem from="1751269575075" duration="4366000" />
-      <workItem from="1751328034595" duration="20427000" />
+      <workItem from="1751328034595" duration="21574000" />
     </task>
     <task id="LOCAL-00001" summary="관련없는 파일 삭제">
       <option name="closed" value="true" />
@@ -238,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751350622781</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="메인비주얼 아트워크1,2 gsap 적용">
+      <option name="closed" value="true" />
+      <created>1751358328023</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1751358328023</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +275,7 @@
     <MESSAGE value="메인 비주얼 gsap 적용" />
     <MESSAGE value="버튼 스타일 변경" />
     <MESSAGE value="메인비주얼 텍스트 ui변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="메인비주얼 텍스트 ui변경" />
+    <MESSAGE value="메인비주얼 아트워크1,2 gsap 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="메인비주얼 아트워크1,2 gsap 적용" />
   </component>
 </project>

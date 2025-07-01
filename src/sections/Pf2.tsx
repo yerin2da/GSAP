@@ -49,8 +49,8 @@ export default function Pf2() {
                         ease: "power2.out",
                         scrollTrigger: {
                             trigger: item,
-                            start: "top 60%",
-                            end: "top 20%",
+                            start: "top 50%",
+                            end: "bottom 50%",
                             toggleActions: "play reverse play reverse",
                             once: false,
                             markers: true,// 디버깅 라인
@@ -66,8 +66,8 @@ export default function Pf2() {
                             color: "red",
                             scrollTrigger: {
                                 trigger: item,
-                                start: "top 60%",
-                                end: "top 20%",
+                                start: "top 50%",
+                                end: "bottom 50%",
                                 toggleActions: "play reverse play reverse",
                             },
                         }
@@ -92,19 +92,15 @@ export default function Pf2() {
                 Artwork2
             </h2>
 
-            <div className="
-            {/*grid grid-cols-1 gap-16 */}
-            flex flex-col gap-16
-            items-center">
+            <div className="flex flex-col gap-16 items-center">
                 {portfolioData.map((item, i) => (
                     <div
                         key={i}
-                        className="border port_item  scale-100 relative transition-transform duration-500 flex flex-col md:flex-row items-start "
+                        className="w-[50vw] xl:w-[30vw] border port_item scale-100 relative transition-transform duration-500 flex flex-col md:flex-row items-start "
                     >
-                        <div className="img_box w-[50vw] xl:w-[30vw]">
+                        <div className="img_box">
                             <IconImaqe imageSrc={item.img}
                                        title={item.title}
-                                       imgClassName={``}
                             />
 
                         </div>
