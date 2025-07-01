@@ -132,10 +132,11 @@ export default function MainVisual() {
         >
             <div className="w-full max-w-[1980px] mx-auto relative">
                 <p className="intro-text opacity-100 uppercase tracking-wide text-sm text-gray-200 mb-4">
-                    super lorem abstract brand — powered by direction
+                    super lorem abstract brand<p className={`xs:hidden`}/> — <p className={`xs:hidden`}/>powered by
+                    direction
                 </p>
                 <div className={`relative z-10 bg-opacity-80 backdrop-blur py-8`}>
-                    <h1 className="relative z-10 text-center leading-[0.8] text-7xl md:text-8xl lg:text-9xl mb-8 flex flex-col items-center justify-center">
+                    <h1 className="relative z-10 text-center leading-[0.8] xxs:text-6xl xs:text-7xl md:text-8xl lg:text-9xl mb-8 flex flex-col items-center justify-center">
                         <span className="">Creative</span>
                         <span className="">Design</span>
                     </h1>
