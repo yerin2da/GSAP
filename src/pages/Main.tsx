@@ -8,17 +8,16 @@ import Contact from "../sections/Contact";
 import Pf2 from "../sections/Pf2";
 
 export default function Main() {
-
     return (
         <div className="text-white">
 
             <MainVisual />
 
-            <div className="max-w-[1920px] mx-auto px-10">
+            <div className="max-w-[1920px] mx-auto px-10 overflow-hidden">
                 <Pf />
                 <Pf2 />
-                <About />
                 <Testimonials />
+                <About />
                 <Contact />
             </div>
 

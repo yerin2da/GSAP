@@ -1,5 +1,3 @@
-// src/sections/About.tsx
-
 import { useEffect, useRef } from "react";
 import { gsap } from "../lib/gsap";
 
@@ -8,14 +6,22 @@ export default function About() {
 
     useEffect(() => {
         const ctx = gsap.context(() => {
-            gsap.to(sectionRef.current, {
-                scrollTrigger: {
-                    trigger: sectionRef.current,
-                    start: "top top",
-                    end: "+=100%",
-                    pin: true,
-                    scrub: true,
-                },
+            const overlays = gsap.utils.toArray<HTMLElement>(".fill-text .overlay");
+                                                                            //.fill-text 안의 .overlay 요소들을 모두 찾음
+
+            overlays.forEach((el) => {
+                gsap.to(el, {
+                    width: "100%",
+                    ease: "sine.out",
+
+                    scrollTrigger: {
+                        trigger: el,
+                        start: "top 60%",
+                        end: "bottom 0%",
+                        scrub: true,
+                        markers: true, // 디버깅
+                    },
+                });
             });
         }, sectionRef);
 
@@ -26,22 +32,38 @@ export default function About() {
         <section
             id="about"
             ref={sectionRef}
-            className="min-h-screen py-20 px-4 snap-start"
+            className="min-h-screen bg-black flex flex-col justify-center px-10 gap-20 snap-start font-bold"
         >
-            <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                    <h2 className="text-3xl font-bold mb-4">About</h2>
-                    <p className="mb-4 text-gray-300">
-                        We create stunning Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        We create stunning Lorem ipsum dolor sit amet, consectetur.
-                    </p>
-                    <p className="text-gray-400">
-                        After 10 years of experience, consectetur adipiscing elit.
-                        We create stunning Lorem ipsum dolor sit amet, consectetur.
-                    </p>
-                </div>
-                <div className="bg-gray-800 h-72 w-full rounded-md" />
-            </div>
+            {[
+                "We Set the Trend",
+                "We Create Icons",
+                "This Is What YOLO Looks Like",
+                "Your Limits Are Obsolete",
+            ].map((text, i) => (
+                <p key={i}
+                   className="fill-text text-xl sm:text-4xl relative overflow-hidden"
+                >
+                    {/* 기본 흐린 텍스트 */}
+                    <span className="base block text-gray-500 relative z-10">
+                        {text}
+                    </span>
+
+                    {/* 흰색으로 채워지는 오버레이 텍스트 */}
+                    <span
+                        className="overlay absolute top-0 left-0 block whitespace-nowrap z-20"
+                        style={{
+                            width: "0%",
+                            overflow: "hidden",
+                            backgroundColor: "white",
+                            color: "transparent",
+                            WebkitBackgroundClip: "text",
+                            backgroundClip: "text",
+                        }}
+                    >
+                        {text}
+                    </span>
+                </p>
+            ))}
         </section>
     );
 }

@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      zIndex: {
+        '-1': '-1',
+      },
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
         noto: ["Noto Sans KR", "sans-serif"],

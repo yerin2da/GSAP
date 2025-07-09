@@ -53,7 +53,7 @@ export default function Pf2() {
                             end: "bottom 50%",
                             toggleActions: "play reverse play reverse",
                             once: false,
-                            markers: true,// 디버깅 라인
+                            // markers: true,// 디버깅 라인
                         },
                     }
                 );

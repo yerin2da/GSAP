@@ -132,10 +132,10 @@
    scrollbar-width: none; /* Firefox */
  }
 
- textarea, textarea:focus{
-   outline: none !important;
-   border: 1px solid transparent !important;
- }
+ //textarea, textarea:focus{
+ //  outline: none !important;
+ //  border: 1px solid transparent !important;
+ //}
 
  .SignUp button:focus {
     @apply shadow-lightPurple
@@ -152,10 +152,10 @@
  }
 
  input:focus, select:focus {
-   border: 1px solid $mainColor !important;
+   //border: 1px solid $mainColor !important;
  }
  input:focus{
-   border: 1px solid $mainColor !important;
+   //border: 1px solid $mainColor !important;
  }
  input::placeholder,
  textarea::placeholder,
@@ -450,3 +450,5 @@ section{
  .floating {
    animation: float 2s ease-in-out infinite;
  }
+
+
