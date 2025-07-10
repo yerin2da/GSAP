@@ -19,7 +19,7 @@ export default function About() {
                         start: "top 60%",
                         end: "bottom 0%",
                         scrub: true,
-                        markers: true, // 디버깅
+                        //markers: true, // 디버깅
                     },
                 });
             });
