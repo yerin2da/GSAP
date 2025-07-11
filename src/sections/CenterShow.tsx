@@ -1,10 +1,10 @@
-// src/sections/Pf.tsx
+// src/sections/CenterShow.tsx
 
 import { useEffect, useRef } from "react";
 import { gsap } from "../lib/gsap";
 import BackImaqe from "../components/BackImage";
 
-export default function Pf() {
+export default function CenterShow() {
     const sectionRef = useRef<HTMLDivElement>(null);//TypeScript로 해당 참조가 HTMLDivElement라는 것을 명시
 
     useEffect(() => {
@@ -52,7 +52,7 @@ export default function Pf() {
         <section
             id="portfolio"
             ref={sectionRef}
-            className="section min-h-screen flex flex-col items-center justify-center py-20 snap-start"
+            className="section min-h-screen flex flex-col items-center justify-center snap-start"
         >
             <h2 className="text-4xl font-normal mb-14 bg-black z-50">
                 Artwork

@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "../lib/gsap";
 import BackImaqe from "../components/BackImage";
 
-export default function Testimonials() {
+export default function RowFlow() {
     const sectionRef = useRef<HTMLDivElement>(null);
     const wrapperRef = useRef<HTMLDivElement>(null);
 
@@ -36,7 +36,7 @@ export default function Testimonials() {
         <section
             id="portfolio"
             ref={sectionRef}
-            className="section min-h-screen flex flex-col py-20 snap-start"
+            className="section min-h-screen flex flex-col justify-center snap-start"
         >
             <h2 className="text-4xl font-normal mb-14 bg-black z-50 text-center">
                 Artwork3
@@ -46,7 +46,6 @@ export default function Testimonials() {
                 ref={wrapperRef}
                 className="flex w-max h-[50vh] gap-10 px-20"
             >
-
                 {[...Array(6)].map((_, i) => (
                     <div
                         key={i}

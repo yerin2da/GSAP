@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="헤더 숨김처리 + data-aos 적용">
+    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/GradientButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HoverRippleButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HoverRippleButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/MainVisual.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainVisual.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Pf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/CenterShow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Pf2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/ArticleText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Testimonials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/RowFlow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +112,8 @@
       <workItem from="1751415089076" duration="633000" />
       <workItem from="1751515994388" duration="8854000" />
       <workItem from="1752035898717" duration="13963000" />
-      <workItem from="1752107425983" duration="880000" />
+      <workItem from="1752107425983" duration="21519000" />
+      <workItem from="1752215039387" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="관련없는 파일 삭제">
       <option name="closed" value="true" />
@@ -263,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752049702819</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="gsap 디버깅 마크 주석 처리">
+      <option name="closed" value="true" />
+      <created>1752109352286</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1752109352286</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +318,7 @@
     <MESSAGE value="메인비주얼 아트워크1,2 gsap 적용" />
     <MESSAGE value="메인비주얼 아트워크2 start,end 포인트 수정" />
     <MESSAGE value="헤더 숨김처리 + data-aos 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤더 숨김처리 + data-aos 적용" />
+    <MESSAGE value="gsap 디버깅 마크 주석 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="gsap 디버깅 마크 주석 처리" />
   </component>
 </project>

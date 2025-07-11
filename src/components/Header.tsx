@@ -28,7 +28,7 @@ export default function Header() {
                 <div className="text-xl font-bold tracking-widest">LOGO</div>
                 {/*<nav className="flex items-center gap-6 text-sm font-medium">*/}
                 {/*    <a href="#hero" className="hover:text-gray-400">Home</a>*/}
-                {/*    <a href="#portfolio" className="hover:text-gray-400">Pf</a>*/}
+                {/*    <a href="#portfolio" className="hover:text-gray-400">CenterShow</a>*/}
                 {/*    <a href="#about" className="hover:text-gray-400">About</a>*/}
                 {/*    <a href="#contact" className="hover:text-gray-400">Contact</a>*/}
                 {/*</nav>*/}

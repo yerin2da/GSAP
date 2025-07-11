@@ -1,4 +1,4 @@
-// src/sections/Pf2.tsx
+// src/sections/ArticleText.tsx
 import { useEffect, useRef } from "react";
 import { gsap } from "../lib/gsap";
 import IconImaqe from "../components/IconImaqe";
@@ -31,7 +31,7 @@ const portfolioData = [
     },
 ];
 
-export default function Pf2() {
+export default function ArticleText() {
     const sectionRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -49,11 +49,11 @@ export default function Pf2() {
                         ease: "power2.out",
                         scrollTrigger: {
                             trigger: item,
-                            start: "top 50%",
-                            end: "bottom 50%",
+                            start: "top 60%",
+                            end: "bottom 40%",
                             toggleActions: "play reverse play reverse",
                             once: false,
-                            // markers: true,// 디버깅 라인
+                            //markers: true,// 디버깅 라인
                         },
                     }
                 );
@@ -63,11 +63,11 @@ export default function Pf2() {
                         heading,
                         { color: "#ffffff" },
                         {
-                            color: "red",
+                            color: '#BAF097',
                             scrollTrigger: {
                                 trigger: item,
-                                start: "top 50%",
-                                end: "bottom 50%",
+                                start: "top 60%",
+                                end: "bottom 60%",
                                 toggleActions: "play reverse play reverse",
                             },
                         }
@@ -80,39 +80,26 @@ export default function Pf2() {
         return () => ctx.revert();
     }, []);
 
-
-
     return (
         <section
             id="portfolio2"
             ref={sectionRef}
-            className="min-h-[300vh] py-20 px-4 flex flex-col items-center"
+            className="min-h-[300vh] flex flex-col justify-center items-center"
         >
-            <h2 className="text-3xl font-bold mb-20">
-                Artwork2
-            </h2>
-
+            <h2 className="text-3xl font-bold mb-20">Artwork2</h2>
             <div className="flex flex-col gap-16 items-center">
                 {portfolioData.map((item, i) => (
                     <div
                         key={i}
-                        className="w-[50vw] xl:w-[30vw] border port_item scale-100 relative transition-transform duration-500 flex flex-col md:flex-row items-start "
+                        className="w-80 h-72 xl:w-[30vw] xl:h-[20vw] port_item scale-100
+                        relative transition-transform duration-500 flex flex-col items-center "
                     >
-                        <div className="img_box">
-                            <IconImaqe imageSrc={item.img}
-                                       title={item.title}
-                            />
-
+                        <div className="img_box h-2/3 rounded-lg overflow-hidden">
+                            <IconImaqe imageSrc={item.img} title={item.title}/>
                         </div>
                         <h3 className="mt-4 text-center text-xl font-semibold">
                             {item.title}
                         </h3>
-                        {/*<a*/}
-                        {/*    href={item.link}*/}
-                        {/*    className="link_wrap absolute inset-0 z-10"*/}
-                        {/*    target="_blank"*/}
-                        {/*    rel="noopener noreferrer"*/}
-                        {/*></a>*/}
                     </div>
                 ))}
             </div>

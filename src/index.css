@@ -48,7 +48,7 @@ a:hover {
 button {
   cursor: pointer;
   outline: none;
-  border: 1px solid transparent;
+  /*border: 1px solid transparent;*/
   transition: 0.5s;
 }
 

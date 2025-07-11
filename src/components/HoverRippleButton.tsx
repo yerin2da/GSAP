@@ -1,6 +1,10 @@
 import React, { useRef, useState } from 'react';
 
-const HoverRippleButton: React.FC = () => {
+interface Props {
+    btnText?: string;
+    onClick?: () => void;// 아무것도 받지 않고(void), 아무것도 반환하지 않는다(void):비어있음"
+}
+const HoverRippleButton: React.FC<Props> = ({btnText = "Click" , onClick}) => {
     const btnRef = useRef<HTMLButtonElement>(null);
     const [circlePos, setCirclePos] = useState({ top: 0, left: 0 });
     const [hovered, setHovered] = useState(false);
@@ -20,7 +24,10 @@ const HoverRippleButton: React.FC = () => {
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
             onMouseMove={handleMouseMove}
-            className="relative overflow-hidden border-2 border-green-600 bg-white text-black font-semibold text-base px-6 py-3 transition-colors duration-300 ease-in-out"
+            className="relative  bg-white text-black font-bold text-xl
+             transition-colors duration-300 ease-in-out overflow-hidden
+             px-3 py-1 rounded-sm min-w-28"
+            onClick={onClick}
         >
             {/* 글자 */}
             <span
@@ -28,7 +35,7 @@ const HoverRippleButton: React.FC = () => {
                     hovered ? 'text-white' : 'text-black'
                 }`}
             >
-                Hover Me
+                {btnText}
             </span>
 
             {/* 퍼지는 원형 배경 */}
@@ -37,9 +44,10 @@ const HoverRippleButton: React.FC = () => {
                 style={{
                     top: `${circlePos.top}px`,
                     left: `${circlePos.left}px`,
-                    width: hovered ? '450px' : '0px',
-                    height: hovered ? '450px' : '0px',
+                    width: hovered ? '250%' : '0px',
+                    height: hovered ? '300%' : '0px',
                     transform: 'translate(-50%, -50%)',
+                    backgroundImage: 'linear-gradient(11deg, rgb(245, 237, 71) 12%, rgb(128, 245, 232) 100%)', // 그라데이션 색상
                 }}
             />
         </button>

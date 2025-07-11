@@ -137,9 +137,9 @@
  //  border: 1px solid transparent !important;
  //}
 
- .SignUp button:focus {
-    @apply shadow-lightPurple
-  }
+ //.SignUp button:focus {
+ //   @apply shadow-lightPurple
+ // }
 
 
  input, select{
@@ -160,7 +160,7 @@
  input::placeholder,
  textarea::placeholder,
  .rs__placeholder{
-   @apply text-sm font-normal !text-gray-300
+   @apply text-sm font-light text-gray-400
  }
 
  /* 셀렉, 옵션 스타일 */
@@ -425,7 +425,7 @@
 }
 
 section{
-  @apply w-full border
+  @apply w-full
 }
 
  .swiper-pagination {

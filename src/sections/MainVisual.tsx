@@ -2,8 +2,8 @@
 
 import { useRef, useEffect } from "react";
 import { gsap } from "../lib/gsap";
-import TailButton from "../UI/TailButton";
 import BackImaqe from "../components/BackImage";
+import HoverRippleButton from "../components/HoverRippleButton";
 
 export default function MainVisual() {
     const sectionRef = useRef<HTMLDivElement>(null);
@@ -103,11 +103,18 @@ export default function MainVisual() {
                }
             });
 
-
         }, sectionRef);
 
         return () => ctx.revert();
     }, []);
+
+    // 컨택트 섹션으로 이동
+    const handleScrollToContact = () => {
+        const target = document.getElementById("contact");
+        if (target) {
+            target.scrollIntoView({behavior: "auto"});
+        }
+    }
 
     return (
         <section
@@ -128,9 +135,9 @@ export default function MainVisual() {
                 </div>
 
                 <div className={`relative z-50 pl-40 pt-10`}>
-                    <TailButton
-                        bcolor={`text-black bg-white`}
-                        caption={`Get a Quote`}
+                    <HoverRippleButton
+                        btnText="Get a Quote"
+                        onClick={handleScrollToContact}
                     />
                 </div>
 

@@ -1,11 +1,11 @@
 // src/pages/Home.tsx
 
 import MainVisual from "../sections/MainVisual";
-import Pf from "../sections/Pf";
+import CenterShow from "../sections/CenterShow";
 import About from "../sections/About";
-import Testimonials from "../sections/Testimonials";
+import RowFlow from "../sections/RowFlow";
 import Contact from "../sections/Contact";
-import Pf2 from "../sections/Pf2";
+import ArticleText from "../sections/ArticleText";
 
 export default function Main() {
     return (
@@ -14,9 +14,9 @@ export default function Main() {
             <MainVisual />
 
             <div className="max-w-[1920px] mx-auto px-10 overflow-hidden">
-                <Pf />
-                <Pf2 />
-                <Testimonials />
+                <CenterShow />
+                <ArticleText />
+                <RowFlow />
                 <About />
                 <Contact />
             </div>
