@@ -1,11 +1,11 @@
 // src/pages/Home.tsx
 
 import MainVisual from "../sections/MainVisual";
-import CenterShow from "../sections/CenterShow";
-import About from "../sections/About";
-import RowFlow from "../sections/RowFlow";
+import Sec1 from "../sections/Sec1";
+import Sec4 from "../sections/Sec4";
+import Sec3 from "../sections/Sec3";
 import Contact from "../sections/Contact";
-import ArticleText from "../sections/ArticleText";
+import Sec2 from "../sections/Sec2";
 
 export default function Main() {
     return (
@@ -14,13 +14,18 @@ export default function Main() {
             <MainVisual />
 
             <div className="max-w-[1920px] mx-auto px-10 overflow-hidden">
-                <CenterShow />
-                <ArticleText />
-                <RowFlow />
-                <About />
-                <Contact />
+                <Sec1 />
+                <Sec2 />
             </div>
 
+            <div className="max-w-[2560px] overflow-hidden">
+                <Sec3 />
+            </div>
+
+            <div className="max-w-[1920px] mx-auto px-10 overflow-hidden">
+                <Sec4 />
+                <Contact />
+            </div>
 
         </div>
     );

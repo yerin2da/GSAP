@@ -12,6 +12,7 @@ module.exports = {
         playfair: ['"Playfair Display"', 'serif'],
         noto: ["Noto Sans KR", "sans-serif"],
         pretendard: ["Pretendard", "sans-serif"],
+        saira: ['"Saira Semi Condensed"', 'sans-serif'],
       },
       colors: {
         mainColor: '#3BBD2A', // 메인컬러

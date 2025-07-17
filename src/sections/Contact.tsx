@@ -14,7 +14,7 @@ export default function Contact() {
     return (
         <section id="contact" className="px-4">
             <div className="max-w-2xl mx-auto text-center">
-                <h2 className="text-4xl font-normal mb-14 bg-black z-50"
+                <h2
                     data-aos="fade-up"
                 >
                     Contact

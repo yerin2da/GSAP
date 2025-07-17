@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "../lib/gsap";
 
-export default function About() {
+export default function Sec4() {
     const sectionRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -36,14 +36,14 @@ export default function About() {
             <div className={`flex flex-col items-start gap-20`}>
                 {[  "We Set the Trend",
                     "We Create Icons",
-                    "This Is What IdentityLooks Like",
-                    "We Go Beyond All Limits",
+                    "This Is What Identity",
+                    "We Go Beyond Limits",
                 ].map((text, i) => (
                     <div key={i}
-                         className="fill-text text-xl sm:text-4xl relative overflow-hidden"
+                         className="fill-text text-lg xs:text-xl sm:text-4xl relative overflow-hidden"
                     >
                         {/* 기본 흐린 텍스트 */}
-                        <span className="base block text-gray-500 relative z-10">
+                        <span className="block text-gray-500 relative z-10">{/*base*/}
                             {text}
                         </span>
 

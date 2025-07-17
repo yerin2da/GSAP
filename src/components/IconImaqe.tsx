@@ -14,9 +14,9 @@ export default function IconImaqe({imageSrc='', wrapClassName='', imgClassName='
                  alt={title + "이미지" || "이미지"}
                  title={title + "이미지" || "이미지"}
                  onClick={onClick}
-                 className={`hover:scale-110 transition-transform duration-500 object-fill
+                 className={` transition-transform duration-500 object-fill
                             ${imgClassName || ''} 
-                        `}
+                        `}// hover:scale-110
             />
         </div>
 

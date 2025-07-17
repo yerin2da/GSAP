@@ -124,13 +124,12 @@ export default function MainVisual() {
         >
             <div className="w-full max-w-[1980px] mx-auto relative">
                 <p className="intro-text opacity-100 uppercase tracking-wide text-sm text-gray-200 mb-4">
-                    super lorem abstract brand<p className={`xs:hidden`}/> — <p className={`xs:hidden`}/>powered by
-                    direction
+                    we make them make sense<p className={`xs:hidden`}/> — <p className={`xs:hidden`}/>That’s what makes it iconic
                 </p>
                 <div className={`relative z-10 bg-opacity-80 backdrop-blur py-8`}>
                     <h1 className="relative z-10 text-center leading-[0.8] xxs:text-6xl xs:text-7xl md:text-8xl lg:text-9xl mb-8 flex flex-col items-center justify-center">
-                        <span className="">Creative</span>
-                        <span className="">Design</span>
+                        <span>Creative</span>
+                        <span>Design</span>
                     </h1>
                 </div>
 
@@ -143,10 +142,10 @@ export default function MainVisual() {
 
                 {/* 이미지 */}
                 <div className="opacity-50 back-image absolute -top-[36%] right-0 aspect-square h-60 md:h-80 lg:h-96 xl:h-full z-0">
-                    <BackImaqe imageSrc="main/pf_img1.png" title="메인비주얼 작품1"/>
+                    <BackImaqe imageSrc="main/sec1/2.jpg" title="메인비주얼 작품1"/>
                 </div>
-                <div className="opacity-50 back-image2 absolute -bottom-[36%] left-0 aspect-square h-60 md:h-80 lg:h-96 xl:h-full z-0">
-                    <BackImaqe imageSrc="main/pf_img6.png" title="메인비주얼 작품2"/>
+                <div className="opacity-50 back-image2 absolute -bottom-[25%] left-0 aspect-square h-60 md:h-80 lg:h-96 xl:h-full z-0">
+                    <BackImaqe imageSrc="main/sec1/4.jpg" title="메인비주얼 작품2"/>
                 </div>
 
             </div>

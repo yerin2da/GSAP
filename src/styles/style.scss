@@ -73,7 +73,12 @@
    font-family: 'Playfair Display', serif !important;
    font-weight: 500;
  }
-
+ section{
+   @apply w-full
+ }
+ h2{
+   @apply text-4xl font-normal text-center pb-36
+ }
 
  footer{
    //display: none!important;
@@ -422,10 +427,6 @@
 }
 .sm-icon{
   @apply w-20 h-20
-}
-
-section{
-  @apply w-full
 }
 
  .swiper-pagination {

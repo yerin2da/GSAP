@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "../lib/gsap";
-import BackImaqe from "../components/BackImage";
+import BackImage from "../components/BackImage";
 
-export default function RowFlow() {
+export default function Sec3() {
     const sectionRef = useRef<HTMLDivElement>(null);
     const wrapperRef = useRef<HTMLDivElement>(null);
 
@@ -12,7 +12,8 @@ export default function RowFlow() {
             const section = sectionRef.current;
             if (!wrapper || !section) return;
 
-            const scrollLength = wrapper.scrollWidth - window.innerWidth + 100;
+            const buffer = 800;//안전마진
+            const scrollLength = wrapper.scrollWidth - window.innerWidth + buffer;
 
             gsap.to(wrapper, {
                 x: -scrollLength,
@@ -24,7 +25,7 @@ export default function RowFlow() {
                     scrub: true,
                     pin: true,
                     anticipatePin: 1,
-                    // markers: true, // 디버깅
+                    // markers: true,
                 },
             });
         }, sectionRef);
@@ -36,23 +37,20 @@ export default function RowFlow() {
         <section
             id="portfolio"
             ref={sectionRef}
-            className="section min-h-screen flex flex-col justify-center snap-start"
+            className="flex flex-col items-center justify-center w-full min-h-screen bg-black text-white"
         >
-            <h2 className="text-4xl font-normal mb-14 bg-black z-50 text-center">
-                Artwork3
-            </h2>
-
+            <h2>Floral Legacy</h2>
             <div
                 ref={wrapperRef}
-                className="flex w-max h-[50vh] gap-10 px-20"
+                className="flex h-[50vh] w-[25vh] aspect-[1/2] gap-10"
             >
                 {[...Array(6)].map((_, i) => (
                     <div
                         key={i}
-                        className="pf-card flex-shrink-0 h-full aspect-square rounded-sm"
+                        className="pf-card w-full h-full flex-shrink-0 rounded overflow-hidden"
                     >
-                        <BackImaqe
-                            imageSrc={`main/pf_img${i + 1}.png`}
+                        <BackImage
+                            imageSrc={`main/sec3/${i + 1}.jpg`}
                             title={`작품 ${i + 1}`}
                         />
                     </div>
