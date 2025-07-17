@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="gsap 수정 처리">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/main/pf_img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/main/pf_img2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/main/pf_img3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/main/pf_img4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/main/pf_img5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/main/pf_img6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IconImaqe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconImaqe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Sec4.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/ArticleText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Sec2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/CenterShow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Sec1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MainVisual.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainVisual.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/RowFlow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Sec3.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="sec2,3 gsap 수정 처리" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +105,7 @@
       <workItem from="1752546241928" duration="7739000" />
       <workItem from="1752624482901" duration="24054000" />
       <workItem from="1752710751357" duration="361000" />
-      <workItem from="1752711139946" duration="2405000" />
+      <workItem from="1752711139946" duration="3055000" />
     </task>
     <task id="LOCAL-00001" summary="관련없는 파일 삭제">
       <option name="closed" value="true" />
@@ -305,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752216733588</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="sec2,3 gsap 수정 처리">
+      <option name="closed" value="true" />
+      <created>1752714358724</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1752714358724</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +328,7 @@
     <MESSAGE value="헤더 숨김처리 + data-aos 적용" />
     <MESSAGE value="gsap 디버깅 마크 주석 처리" />
     <MESSAGE value="gsap 수정 처리" />
-    <option name="LAST_COMMIT_MESSAGE" value="gsap 수정 처리" />
+    <MESSAGE value="sec2,3 gsap 수정 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="sec2,3 gsap 수정 처리" />
   </component>
 </project>
