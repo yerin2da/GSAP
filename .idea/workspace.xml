@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="sec2,3 gsap 수정 처리" />
+    <list default="true" id="e034a446-c663-4877-a1bf-5b27d74e976f" name="Changes" comment="메인 각 섹션 이미지 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconImaqe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconImaqe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/MainVisual.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainVisual.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Sec1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Sec1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Sec2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Sec2.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +44,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/cobra/GSAP/src/sections&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/cobra/micro&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -105,7 +111,8 @@
       <workItem from="1752546241928" duration="7739000" />
       <workItem from="1752624482901" duration="24054000" />
       <workItem from="1752710751357" duration="361000" />
-      <workItem from="1752711139946" duration="3055000" />
+      <workItem from="1752711139946" duration="11792000" />
+      <workItem from="1752820929449" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="관련없는 파일 삭제">
       <option name="closed" value="true" />
@@ -291,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752714358724</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="메인 각 섹션 이미지 추가">
+      <option name="closed" value="true" />
+      <created>1752714428440</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1752714428440</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +344,7 @@
     <MESSAGE value="gsap 디버깅 마크 주석 처리" />
     <MESSAGE value="gsap 수정 처리" />
     <MESSAGE value="sec2,3 gsap 수정 처리" />
-    <option name="LAST_COMMIT_MESSAGE" value="sec2,3 gsap 수정 처리" />
+    <MESSAGE value="메인 각 섹션 이미지 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="메인 각 섹션 이미지 추가" />
   </component>
 </project>

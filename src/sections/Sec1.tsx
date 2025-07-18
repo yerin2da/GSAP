@@ -42,7 +42,6 @@ export default function Sec1() {
                     { opacity: 1, scale: 1, ease: "power2.out" }
                 );
             });
-        //
         }, sectionRef);
 
         return () => ctx.revert();

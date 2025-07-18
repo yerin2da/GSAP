@@ -102,10 +102,10 @@ export default function Sec2() {
                 {portfolioData.map((item, i) => (
                     <div
                         key={i}
-                        className="w-80 h-72 xl:w-[30vw] xl:h-[20vw] port_item scale-50 xs:scale-100
-                        relative transition-transform duration-500 flex flex-col items-center "
+                        className="w-80 h-72 xl:w-[30vw] xl:h-[25vw] port_item scale-50 xs:scale-100
+                        relative transition-transform duration-500 flex flex-col items-center"
                     >
-                        <div className="img_box h-2/3 rounded overflow-hidden">
+                        <div className="img_box h-2/3 w-full rounded overflow-hidden">
                             <IconImaqe imageSrc={item.img} title={item.title}/>
                         </div>
                         <h3 className="mt-4 text-center text-xl font-semibold !font-saira">

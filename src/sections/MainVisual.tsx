@@ -123,11 +123,11 @@ export default function MainVisual() {
             className="section min-h-screen flex items-center justify-center text-center overflow-hidden"
         >
             <div className="w-full max-w-[1980px] mx-auto relative">
-                <p className="intro-text opacity-100 uppercase tracking-wide text-sm text-gray-200 mb-4">
-                    we make them make sense<p className={`xs:hidden`}/> — <p className={`xs:hidden`}/>That’s what makes it iconic
-                </p>
+                <div className="intro-text opacity-100 uppercase tracking-wide text-sm text-gray-200 mb-4">
+                    we make them make sense<p className={`xs:hidden`}> — </p>That’s what makes it iconic
+                </div>
                 <div className={`relative z-10 bg-opacity-80 backdrop-blur py-8`}>
-                    <h1 className="relative z-10 text-center leading-[0.8] xxs:text-6xl xs:text-7xl md:text-8xl lg:text-9xl mb-8 flex flex-col items-center justify-center">
+                    <h1 className="relative z-10 text-center leading-[0.8] text-6xl xs:text-7xl md:text-8xl lg:text-9xl mb-8 flex flex-col items-center justify-center">
                         <span>Creative</span>
                         <span>Design</span>
                     </h1>
