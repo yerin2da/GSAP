@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/GSAP/static/css/main.88982538.css",
-    "main.js": "/GSAP/static/js/main.e0ffc6f1.js",
+    "main.css": "/GSAP/static/css/main.e45718bd.css",
+    "main.js": "/GSAP/static/js/main.832461ea.js",
     "static/js/206.950af1d6.chunk.js": "/GSAP/static/js/206.950af1d6.chunk.js",
     "index.html": "/GSAP/index.html"
   },
   "entrypoints": [
-    "static/css/main.88982538.css",
-    "static/js/main.e0ffc6f1.js"
+    "static/css/main.e45718bd.css",
+    "static/js/main.832461ea.js"
   ]
 }
