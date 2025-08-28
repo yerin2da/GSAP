@@ -25,7 +25,7 @@ export default function Header() {
             }`}
         >
             <div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
-                <div className="text-xl font-bold tracking-widest">LOGO</div>
+                <div className="text-xl font-bold tracking-widest h1">Artvo</div>
                 {/*<nav className="flex items-center gap-6 text-sm font-medium">*/}
                 {/*    <a href="#hero" className="hover:text-gray-400">Home</a>*/}
                 {/*    <a href="#portfolio" className="hover:text-gray-400">Sec1</a>*/}

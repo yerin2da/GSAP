@@ -51,6 +51,9 @@ button {
   /*border: 1px solid transparent;*/
   transition: 0.5s;
 }
+.h1 {
+  font-family: 'Playfair Display', serif !important;
+}
 
 .custom-swiper .swiper-pagination {
   bottom: 10px !important; /* 페이지네이션을 하단으로 배치 */
